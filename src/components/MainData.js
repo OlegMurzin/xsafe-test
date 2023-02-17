@@ -187,7 +187,7 @@ const MainData = () => {
                     <div>
                         <h5 className='flex-1 h-4rem text-black font-bold p-4 border-round'>Port</h5>
                         <div className='mx-4'>
-                            <InputNumber inputId="minmax" value={port} placeholder="Port" onValueChange={(e) => setPort1(e.value)} useGrouping={false} />
+                            <InputNumber inputId="minmax" value={port} placeholder="Port" onValueChange={(e) => setPort1(e.value)} min={1} useGrouping={false} />
                         </div>
                         <div class="flex-1 text-black p-4">
                             <div class="local">
@@ -213,7 +213,7 @@ const MainData = () => {
                     <div>
                         <h5 className='flex-1 h-4rem text-black font-bold p-4 border-round'>Datenbankname</h5>
                         <div className='mx-4'>
-                            <InputText id="alpha" value={databasename} placeholder="Datenbankname" onChange={(e) => setDatabasename1(e.target.value)} keyfilter="alpha" />
+                            <InputText id="alpha" value={databasename} placeholder="Datenbankname" onChange={(e) => setDatabasename1(e.target.value)}/>
                         </div>
                         <div class="flex-1 text-black p-4">
                             <div class="local">
