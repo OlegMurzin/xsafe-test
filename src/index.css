@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.local{
+.verticalLine{
     height: 25px;
     border-left: 7px solid #00003c;
     position: static;
     left:55%;
 }
 
-.p {
+.verticalLine-spacing{
     margin-left:10px;
     margin-bottom: 10px;
-    /*color: #555555;*/
 }

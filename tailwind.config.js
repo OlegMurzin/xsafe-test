@@ -9,6 +9,9 @@ module.exports = {
       'darker-blue': '#00003c',
       'border-red': '#fa3746',
     },
+    fontFamily: {
+      'corpDes': ['TNG Pro'],
+    },
     extend: {},
   },
   plugins: [],
