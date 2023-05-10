@@ -47,12 +47,12 @@ const MainData = () => {
             sticky: true,
             className: 'border-none',
             content: (
-                <div className="flex flex-column align-items-center" style={{ flex: '1' }}>
+                <div className="" style={{ flex: '1' }}>
                     <div className="text-center">
                         <i className="pi pi-exclamation-triangle" style={{ fontSize: '3rem' }}></i>
                         <div className="font-bold text-xl my-3">Sind Sie sicher?</div>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex justify-center gap-2">
                         <Button onClick={(e) => clear(true)} type="button" label="Bestätigen" className="p-button-success w-6rem" />
                         <Button onClick={(e) => clear(false)} type="button" label="Abbrechen" className="p-button-warning w-6rem" />
                     </div>
