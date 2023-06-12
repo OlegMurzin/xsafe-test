@@ -11,6 +11,9 @@ module.exports = {
     },
     fontFamily: {
       'corpDes': ['TNG Pro'],
+      'front': ['Euclid Circular A'],
+      'front_': ['Poppins'],
+
     },
     extend: {},
   },
